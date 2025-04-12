@@ -1,0 +1,57 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+/* ___Global/Universal___*/
+
+*,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+/*Top Bar*/
+.top-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        background: #EEEEEE;
+        padding: 10px 22px;
+        top: 0px;
+        font-weight: 100;
+       }
+.top-bar a{
+        text-decoration: none;
+        padding-left: 8px;
+        font-size: small;
+        color: #1294a0;
+        }
+.top-bar a:hover {
+        margin-top:20px;
+}
+.top-bar-social{
+         display: flex;
+         justify-content: space-between;
+         gap: 20px;
+        }
+
+/*Welcome section*/
+.welcome{
+margin: 20px;
+padding: 10px;
+}
+
+.welcome h1{
+    font-weight: 900;
+    text-align: center;
+    padding: 10px 0px;
+}
+footer .address{
+    background: #01c6ec;
+    padding: 10px 50px;
+    display: flex;
+}
+footer .address div{
+    width:33%;
+}
