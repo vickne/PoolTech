@@ -55,3 +55,8 @@ footer .address{
 footer .address div{
     width:33%;
 }
+.copyright{
+    background-color: black;
+    padding:10px 22px;
+    text-align: center;
+}
