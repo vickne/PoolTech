@@ -37,12 +37,12 @@
         }
 
 /*Welcome section*/
-.welcome{
+.welcome,.services{
 margin: 20px;
 padding: 10px;
 }
 
-.welcome h1{
+.welcome h1,.services h1{
     font-weight: 900;
     text-align: center;
     padding: 10px 0px;
