@@ -84,3 +84,6 @@ hr {
 .services .services-container .service-box{
     width:33%;
 }
+.service-box img{
+    width: 100%;
+}
