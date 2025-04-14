@@ -16,7 +16,7 @@
         justify-content: space-between;
         align-items: center;
         align-content: center;
-        background: #EEEEEE;
+        background: rgb(4 4 4);
         padding: 10px 22px;
         top: 0px;
         font-weight: 100;
@@ -56,7 +56,7 @@ footer .address div{
     width:33%;
 }
 .copyright{
-    background-color: black;
+    background-color: rgb(4 4 4);
     padding:10px 22px;
     text-align: center;
 }
