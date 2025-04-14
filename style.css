@@ -89,4 +89,9 @@ hr {
 }
 .service-box img{
     width: 100%;
+    transform: rotateX(27deg) rotate3d(1, 1, 0, 18deg);
+    filter: drop-shadow(0 -6mm 4mm rgb(0, 0, 0, 0.7));
+}
+.service-box img:hover {
+    filter: drop-shadow(30px 10px 4px rgb(0, 0, 0, 0.7));
 }
