@@ -75,3 +75,12 @@ hr {
     border: 0;
     border-top: 1px solid rgb(242 111 40);
 }
+
+/*service*/
+
+.services-container{
+    display: flex;
+}
+.services .services-container .service-box{
+    width:33%;
+}
