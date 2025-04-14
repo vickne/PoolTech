@@ -68,3 +68,10 @@ footer .address div{
     text-align: center;
 }
 
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgb(242 111 40);
+}
