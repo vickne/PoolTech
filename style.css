@@ -60,3 +60,7 @@ footer .address div{
     padding:10px 22px;
     text-align: center;
 }
+
+.navbar-light .navbar-nav .nav-link{
+    color:#030605;
+}
