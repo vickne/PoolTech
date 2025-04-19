@@ -62,9 +62,11 @@ footer .address{
 footer .address div{
     width:33%;
 }
-.copyright{
-    background-color: rgb(4 4 4);
-    padding:10px 22px;
+footer div.copyright{
+    background: #090909;
+    padding: 10px 5px;
+    color: #fa6923;
+    top: 22px;
     text-align: center;
 }
 
@@ -93,4 +95,10 @@ hr {
 }
 .service-box img:hover {
     filter: drop-shadow(30px 10px 4px rgb(0, 0, 0, 0.7));
+}
+
+/*Heading*/
+h4 {
+    font-size: 1.2rem;
+    font-weight: 900;
 }
