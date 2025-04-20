@@ -122,3 +122,15 @@ h4 {
 .input-contact input,.input-contact textarea{
     width: 60%;
 }
+.input-button button{
+    border: 0px solid;
+    padding: 10px 10px;
+    background: #e86f21;
+}
+
+.input-button {
+    text-align: right;
+    margin-right: 10%;
+    border: 0px solid;
+    padding: 10px 10px;
+}
