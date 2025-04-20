@@ -43,20 +43,17 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#about">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Our Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Our Clients</a>
+                  <a class="nav-link" href="#service">Our Services</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Why Us</a>
                 </li>
               </ul>
               <span class="navbar-text">
-                Contact Us
+                <a href="#contact">Contact Us</a>
               </span>
             </div>
         </nav>
@@ -96,12 +93,16 @@
           </div>
      </section>
      <!-- About us -->
-     <section class="welcome">
+     <section class="welcome" id="about">
         <h1>Professional Swimming Pool Company in Bahrain</h1>
         <hr>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <p>At Pool Tech Bahrain, we’re passionate about pools and committed to exceptional service. With over 17 years of experience, we provide reliable, top-quality maintenance and cleaning for residential and commercial pools. We pride ourselves on punctuality, professionalism, and honest communication. Your pool’s Maintanance and cleaning is our priority</p>
+
+        <p>Acknowledging the immense potential of this rapidly expanding market, we established Pool Tech. Over the course of a decade, we have solidified our position as the premier choice for both property owners and construction developers. We deeply understand the paramount importance of preserving your pool’s pristine condition.</p>
+          
+        <p>Pool Tech being one of the leading swimming pool company in Dubai, offers  a comprehensive suite of services tailored to meet your needs. From regular cleaning sessions to detailed inspections and overall maintenance, we ensure that your pool remains in optimal condition, guaranteeing endless moments of relaxation and enjoyment for years to come.</p>
+          
+        <p>Your swimming pool is not merely a luxury addition to your property; it represents a valuable investment that necessitates regular care and attention. For sustained performance and longevity of your asset, entrust Pool Tech with your pool maintenance needs. Let us handle the upkeep while you indulge in the sheer pleasure of owning a perfectly maintained pool.</p>
     </section>
     <!-- Services -->
     <section class="services">
@@ -113,8 +114,9 @@
       <div class="service-box">
         <img src="images/swimmingpool-construction.webp" />
         <h4>Swimming Pool cleaning and Maintanance Service</h4>
-        <p>We do construction of all kinds of swimming pools in Dubai. Whether it is commercial, residential buildings, health clubs or private villas. with our expert team we can offer innovative best design ideas with all other supportive features like Jacuzzi, water features and shower area.</p>
-      </div>
+        <p></p>
+      </div>  
+      
       <div class="service-box">
         <img src="images/swimmingpool-construction.webp" />
         <h4>Swimming Pool Leak Repairing, Water Proofing, Tile Fixing, Grounting</h4>
@@ -150,14 +152,24 @@
       <form id="contact-form">
         <!-- To simplify the tutorial, the value is static. -->
         <input type="hidden" name="time" value="Mar 10 2025 08:46">
-        <label>Name</label>
-        <input type="text" name="name" required>
-        <label>Email</label>
-        <input type="email" name="email" required>
-        <label>Subject</label>
-        <input type="text" name="title" required>
-        <label>Message</label>
-        <textarea name="message" required></textarea>
+        <div>
+           <label>Name</label>
+           <input type="text" name="name" required>
+        </div> 
+        <div>
+           <label>Email</label>
+           <input type="email" name="email" required>
+        </div>
+        <div>
+            <label>Subject</label>
+            <input type="text" name="title" required>
+        </div>
+        <div>
+            <label>Message</label>
+            <textarea name="message" required>
+
+            </textarea>
+        </div>
         <input type="submit" value="Send">
     </form>
     </section>
