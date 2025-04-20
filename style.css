@@ -118,7 +118,8 @@ h4 {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
+    padding: 10px 0px;
 }
-.input-contact input{
+.input-contact input,.input-contact textarea{
     width: 60%;
 }
