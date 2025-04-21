@@ -35,6 +35,20 @@
          justify-content: space-between;
          gap: 20px;
         }
+
+/*carrousal*/
+.carousel-caption h4{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #ff9200;
+}
+.carousel-caption button{
+    border: none;
+    background-color: #000000c2;
+    color: #f46a23;
+    padding: 10px;
+    border-radius: 20px;
+}
 /*Nav Bar*/
 .navbar-light .navbar-nav .nav-link {
     color: rgb(4 4 4);
