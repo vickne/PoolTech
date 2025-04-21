@@ -150,6 +150,10 @@ h4 {
     border: 0px solid;
     padding: 10px 10px;
 }
+/*contact*/
+#contact h1{
+    text-align: center;
+}
 /*chat*/
 .open-button {
     background-color: #55555500;
