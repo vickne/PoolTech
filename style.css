@@ -136,7 +136,7 @@ h4 {
 }
 /*chat*/
 .open-button {
-    background-color: #555;
+    background-color: #55555500;
     color: white;
     padding: 16px 20px;
     border: none;
@@ -146,6 +146,10 @@ h4 {
     bottom: 23px;
     right: 28px;
     width: 280px;
+  }
+
+  .open-button img{
+    width:70px;
   }
   
   /* The popup chat - hidden by default */
