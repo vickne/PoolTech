@@ -138,14 +138,14 @@ h4 {
 .open-button {
     background-color: #55555500;
     color: white;
-    padding: 16px 20px;
+    padding: 30px 10px;
     border: none;
     cursor: pointer;
     opacity: 0.8;
     position: fixed;
     bottom: 23px;
     right: 28px;
-    width: 280px;
+    width: 0px;
   }
 
   .open-button img{
@@ -206,4 +206,33 @@ h4 {
   /* Add some hover effects to buttons */
   .form-container .btn:hover, .open-button:hover {
     opacity: 1;
+  }
+
+  /*Media Quiries*/
+  @media (max-width: 767.98px) {
+    .top-bar {
+        display: block;
+    }
+    .top-bar a{
+        display: block;
+        width: 100%;
+        font-size: medium;
+    }
+    .services-container,footer .address {
+        display: block;
+    }
+    footer .address div {
+        width: 100%;
+    }
+    .open-button {
+        padding: 30px 10px;
+        left: 0px;
+        width: 0px;
+    }
+    .form-container {
+        max-width: 270px;
+    }
+    .wachat-popup {
+        right: 60px;
+    }
   }
