@@ -116,10 +116,10 @@ hr {
 }
 .service-box img{
     width: 100%;
-    transform: rotateX(27deg) rotate3d(1, 1, 0, 18deg);
-    filter: drop-shadow(0 -6mm 4mm rgb(0, 0, 0, 0.7));
+    transform: rotateX(20deg) rotate3d(1, 1, 0, 21deg);
+    filter: drop-shadow(-6mm 4mm rgb(0, 0, 0, 0.5));
     border-top-left-radius: 1em 1em;
-    border: 8px solid;
+    border: 5px solid;
 }
 .service-box img:hover {
     filter: drop-shadow(30px 10px 4px rgb(0, 0, 0, 0.7));
