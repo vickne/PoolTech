@@ -139,7 +139,7 @@ h4 {
 .input-contact input,.input-contact textarea{
     width: 60%;
 }
-.input-button button{
+.input-button input{
     border: 0px solid;
     padding: 10px 10px;
     background: #e86f21;
