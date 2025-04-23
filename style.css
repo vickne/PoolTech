@@ -80,7 +80,8 @@ footer .address{
     display: flex;
 }
 footer .address div{
-    width:33%;
+    width: 33.3%;
+    padding-left: 15px;
 }
 footer div.copyright{
     background: #090909;
