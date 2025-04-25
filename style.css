@@ -16,7 +16,7 @@
         justify-content: space-between;
         align-items: center;
         align-content: center;
-        background: rgb(4 4 4);
+        background: rgb(7 173 219);
         padding: 10px 22px;
         top: 0px;
         font-weight: 100;
@@ -25,7 +25,7 @@
         text-decoration: none;
         padding-left: 8px;
         font-size: small;
-        color: #f16e25;
+        color: #003591;
         }
 .top-bar a:hover {
         margin-top:20px;
@@ -40,12 +40,13 @@
 .carousel-caption h4{
     font-size: 3rem;
     font-weight: 900;
-    color: #ff9200;
+    color: #fafaff;
+    background: linear-gradient(0.25turn, #0015ff8c, #0034ff5e, #00b0de3d);
 }
 .carousel-caption button{
     border: none;
-    background-color: #000000c2;
-    color: #f46a23;
+    background-color: #001ffff2;
+    color: #ffffff;
     padding: 10px;
     border-radius: 20px;
 }
@@ -54,11 +55,11 @@
     color: rgb(4 4 4);
 }
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(238 109 32 / 58%);
+    color: rgb(4 24 165 / 74%);
 }
 .navbar-text{
     color: rgb(5 5 5);
-    background: #f46a23;
+    background: #0517a9;
     padding: 10px 10px;
     border-radius: 3px;
 }
@@ -84,9 +85,9 @@ footer .address div{
     padding-left: 15px;
 }
 footer div.copyright{
-    background: #090909;
+    background: #081b3c;
     padding: 10px 5px;
-    color: #fa6923;
+    color: rgb(7 173 222);
     top: 22px;
     text-align: center;
 }
@@ -102,7 +103,7 @@ hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 1px solid rgb(242 111 40);
+    border-top: 1px solid rgb(7 173 222);
 }
 
 /*service*/
@@ -142,7 +143,7 @@ h4 {
 .input-button input{
     border: 0px solid;
     padding: 10px 10px;
-    background: #e86f21;
+    background: rgb(7 173 222) ;
 }
 
 .input-button {
